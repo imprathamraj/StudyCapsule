@@ -17,18 +17,16 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("StudyCapsule API")
                         .version("1.0.1")
-                        .description("📘 REST API for managing study capsules.")
-                        .termsOfService("https://example.com/terms")
+                        .description("**Demo Spring Boot project to learn Swagger (Springdoc OpenAPI). Covers CRUD for capsule data using Spring Boot, JPA, MySQL. Exploring API design best practices through hands-on learning.**")
+                        .termsOfService("https://www.apache.org/licenses/LICENSE-2.0")
                         .contact(new Contact()
                                 .name("Pratham Raj")
-                                .url("https://github.com/imprathamraj")
-                                .email("your-email@example.com"))
+                                .url("https://www.linkedin.com/in/pratham-raj-516071234/"))
                         .license(new License()
-                                .name("Apache 2.0")
-                                .url("https://www.apache.org/licenses/LICENSE-2.0")))
+                                .name("Github")
+                                .url("https://github.com/imprathamraj/StudyCapsule")))
                 .servers(List.of(
-                        new Server().url("http://localhost:8080").description("Local server"),
-                        new Server().url("https://studycapsule.example.com").description("Production server")
+                        new Server().url("http://localhost:8080").description("Local server")
                 ));
     }
 }
