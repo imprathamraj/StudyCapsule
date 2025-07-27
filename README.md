@@ -19,7 +19,7 @@ A **demo Spring Boot project** built to explore and practice **API documentation
 Implemented swagger
 
 ## 📂 Structure
-
+```text
 com.example.demo
 ├── controller
 │ └── CapsuleController.java
@@ -30,13 +30,14 @@ com.example.demo
 ├── service
 │ └── CapsuleService.java
 └── StudyCapsuleApplication.java
+```
 
 ## 🎯 Purpose
 This project is part of my journey to learn and apply **best practices in REST API design and documentation** using hands-on implementation.
 
 ## 📌 Author
 **Pratham Raj**  
-[Linkedin - ]([(https://www.linkedin.com/in/pratham-raj-516071234/)])
+https://www.linkedin.com/in/pratham-raj-516071234/)
 
 ---
 
